@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[639],{8009:function(e){e.exports=JSON.parse('{"title":"Testing","slug":"/category/testing","permalink":"/docs/category/testing","navigation":{"previous":{"title":"Introduction","permalink":"/docs/nlu/intro"},"next":{"title":"Creating New Tests","permalink":"/docs/testing/create"}}}')}}]);
