@@ -11,6 +11,7 @@ $ yarn
 ### Local Development
 
 ```
+$ yarn add docusaurus --dev
 $ yarn start
 ```
 
