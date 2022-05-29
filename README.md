@@ -5,7 +5,11 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ### Installation
 
 ```
-$ yarn
+$ curl -o- -L https://yarnpkg.com/install.sh | bash
+OR
+$ brew install yarn
+OR
+$ sudo port install yarn
 ```
 
 ### Local Development
