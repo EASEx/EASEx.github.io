@@ -4,44 +4,32 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover EASEx.
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Get started by **creating a new test**.
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- A compatible Windows/MacOS/Linux desktop for the frontend application.
+- A server with docker and docker compose installed.
 
-## Generate a new site
+## Setup Application
 
-Generate a new Docusaurus site using the **classic template**.
+Download and install the latest application from "https://EASEx.github.io/releases".
 
-The classic template will automatically be added to your project after you run the command:
+_Note that the application is not signed, so you may need to contact your administrator for installation._
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Setup Server
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Clone and run the development server:
 
 ```bash
-cd my-website
-npm run start
+git clone https://EASEx/Deployment.git
+cd deployment
+docker-compose up
 ```
+This will start the proxy on port 8888. We do not discuss setting up the load balancer here because it is dependent upon your task. You will need to ensure that the load balancer supports large file transfer (>100 MB), web sockets and server side events.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
