@@ -8,7 +8,7 @@ Let's discover EASEx.
 
 ## Getting Started
 
-Get started by **creating a new test**.
+Get started by **creating a new problem-solving session**.
 
 ### What you'll need
 
@@ -30,6 +30,6 @@ git clone https://EASEx/Deployment.git
 cd deployment
 docker-compose up
 ```
-This will start the proxy on port 8888. We do not discuss setting up the load balancer here because it is dependent upon your task. You will need to ensure that the load balancer supports large file transfer (>100 MB), web sockets and server side events.
+This will start the proxy on port 8888. Setting up the load balancer would depend on your task - please ensure that the load balancer supports large file transfer (>100 MB), web sockets and server side events.
 
 

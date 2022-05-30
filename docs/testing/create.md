@@ -2,36 +2,37 @@
 sidebar_position: 1
 ---
 
-# Creating New Tests
+# Creating New Problem-solving Sessions
 
 ## Requirements
 
-To create new tests, the instructor must have the following content available with him. Note that this is an exhaustive list and it is definitely possible to omit some requirements for non core features :
+To create new problem-solving sessions for students, you must have the following content available. Please note that this is an exhaustive list and it is possible to omit some requirements for non-core features:
 
-## Question
+## Problem
 
-Put Simply, this instructor needs to develop/write a question as per his/her requirements. As of now, we only support questions with a numeric order/option based answer along with a short explanation for the answer. 
+As an instructor or course designer, you will need to develop/write a problem as per your requirements. Currently, we only support problems with a numeric rank order (e.g., rank order datasets A, B, C based on criterion) or an option based answer (e.g., based on criterion, which of datasets A, B, C is most representative), along with a short explanation/reasoning for the answer. 
 
-Questions must be created using the template jupyter notebook available in the administrator dashboard, and you must not edit any cells that have been clearly marked to not be tampered with. These cells. are necessary for the functioning of the environment. Deleting such cells can lead to unintended loss of data.
+Problems must be created using the template jupyter notebook available in the administrator dashboard.
 
-__TEST NOTEBOOK MUST BE SHARED ON GOOGLE COLABORATORY__. 
+Do not edit jupyter notebook cells that have been clearly marked not to be tampered with. These cells are necessary for the functioning of the environment. Deleting such cells can lead to unintended loss of data.
 
-We do not have any formal arrangement with google colaboratory, but due to plethora of jupyter environments available, it was not possible to cater all of them. We may support more jupyter environments in future.
+__Please note that we currently offer jupyter notebook based problem-solving only via Google Colaboratory__.
 
-You are free to use any custom jupyter widget as long as they do not tamper with the existing data.
+You are free to use any custom jupyter widget as long as it does not tamper with the existing data.
 
 
 ## Students
 
-Like questions, you will also need students for the test. We have implemented stringent security protcols and only authorized students can give a test. 
+As an instructor or course designer, you will further need to register students for the problem-solving session. We have implemented stringent security protcols and only authorized students can attempt the designed problems. 
 
-Secondly, owing to anonymity requirements for research, we cannot collect and personal data of students. 
+Owing to anonymity requirements for research, we do not collect any personal data of students. 
 
-You can provide a list of students to the application and it will generate user accounts w/ passwords for each students. You can then share these accounts with students to open the test. No personal data would be collected in the process, since the application only asks you the number of participants.
+You can provide a list of students to EASEx and it will generate user accounts with the passwords for each student. You can then share these accounts with students to open the problem-solving session. No personal data would be collected in the process, since EASEx only asks you the number of participants for whom login credentials need to be created.
+
 
 ## Actions
 
-The instructor also needs to setup several actions he chooses to trigger during the course of the test. Actions can constitute several things:
+As an instructor or course designer, you will also need to setup several actions that you would like to be triggered during the course of the problem-solving session. Actions can constitute several things:
 
 - Dialogue*
 - HTML/Markdown/TEXT Data
@@ -39,28 +40,18 @@ The instructor also needs to setup several actions he chooses to trigger during 
 
 `* required`
 
-See [] for further explantion regarding actions.
+See [here](../concepts/actions) for further explantion regarding actions.
 
-You are free to decide how many actions you want but choosing a low amount of actions would have no effect on students, and choosing a large amount of actions can make it impossible to judge the performance of the system. 
-
-We do not comment upon a recommended number of actions since it can vary largely depending upon user case. However you should try to ensure that there are enough actions for every rule.
+You are free to decide how many actions you want but choosing a low number of actions may not have the desired effect on students (e.g., one motivational prompt for an hour long problem-solving session), and choosing a high number of actions may disrupt students' learning experience and make it impossible to precisely judge what impacts student performance. Generally, you should try to ensure that there are enough actions for every rule.
 
 ## Rules
 
-Rules are literally `rules`  that decide when/why/how actions are triggered. 
-See [here](../concepts/rules) for a detailed description regarding rules. 
+As an instructor or course designer, you may configure rules that decide when, why and how actions are triggered. 
+
+See [here](../concepts/rules) for further explantion regarding rules. 
 
 ## Answers _(Optional)_
 
-If you want to automatically check student answers to determine that they fall into some school of thought or mentality, then you can do so using the NLU module. But you must provide some previous answers as well as their catergories for this feature to work. 
+Finally, as an instructor or course designer, if you want to automatically check student explanation to determine whether they fall into certain reasoning clusters, you can do so using the NLU module. In order for this to work, you must provide already available student answers (e.g., from prior cohorts) as well as their predefined category labels. Accuracy of this module will strongly depend on this input. 
 
-Answer checking happens through semantic similarity algorithms, and you can read more at [here](https://www.sbert.net/docs/usage/semantic_textual_similarity.html). Note that this is not 100% accurate, and you should not blindly trust the module and neither use it for autograding. Rather, this module can be used to trigger additional actions that can help you to point the students in right direction, and comes especially handy when students give the right numerical answer but provide a wrong explanation.
-
-
-
-
-
-
-
-
-
+Answer checking happens through semantic similarity algorithms, and you can read more it [here](https://www.sbert.net/docs/usage/semantic_textual_similarity.html). Please note that this module can be used to trigger additional actions that can point students in a particular direction in the problem-space. This can especially come handy when students give the right numerical answer (e.g., right multiple choice option or rank order) but provide a wrong or suboptimal explanation.
