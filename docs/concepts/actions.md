@@ -37,21 +37,19 @@ You can also provide some optional data along with each action that is presented
 
 ## Python Code
 
-You can further provide snippets of exemplar code to the students. You must always assume that no libraries have been imported and provide a completely independent code.
-
-Essentially, `!python xxx.py` should run in Google Colaboratory.
+You can further provide snippets of exemplar code to the students. You must always assume that no libraries have been imported and provide a completely independent code (i.e., your code snippet should succesfully run as `!python xxx.py` in the Google Colaboratory).
 
 :::danger
 
-Python Code is not executed in an isolated environment. You must not override any of EASEx behavior in your supplied code,
+You must not override any of EASEx behavior in your supplied code.
 
 :::
 
-## Type
+## Scaffold Type
 
-Type refers to the type of action, e.g., motivational, cognitive, social, affective, etc.
+Scaffold type refers to the type of action, e.g., cognitive, motivational, relational, etc.
 
-You can read more about types [here](types).
+You can read more about scaffold types [here](scaffoldtype).
 
 ## Internal Schema
 

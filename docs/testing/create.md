@@ -14,7 +14,11 @@ As an instructor or course designer, you will need to develop/write a problem as
 
 Problems must be created using the template jupyter notebook available in the administrator dashboard.
 
+:::danger
+
 Do not edit jupyter notebook cells that have been clearly marked not to be tampered with. These cells are necessary for the functioning of the environment. Deleting such cells can lead to unintended loss of data.
+
+:::
 
 __Please note that we currently offer jupyter notebook based problem-solving only via Google Colaboratory__.
 
@@ -54,4 +58,4 @@ See [here](../concepts/rules) for further explantion regarding rules.
 
 Finally, as an instructor or course designer, if you want to automatically check student explanation to determine whether they fall into certain reasoning clusters, you can do so using the NLU module. In order for this to work, you must provide already available student answers (e.g., from prior cohorts) as well as their predefined category labels. Accuracy of this module will strongly depend on this input. 
 
-Answer checking happens through semantic similarity algorithms, and you can read more it [here](https://www.sbert.net/docs/usage/semantic_textual_similarity.html). Please note that this module can be used to trigger additional actions that can point students in a particular direction in the problem-space. This can especially come handy when students give the right numerical answer (e.g., right multiple choice option or rank order) but provide a wrong or suboptimal explanation.
+Answer checking happens through semantic similarity algorithms, and you can read more about it [here](https://www.sbert.net/docs/usage/semantic_textual_similarity.html). Please note that this module can be used to trigger additional actions that can point students in a particular direction in the problem-space. This can especially come handy when students give the right numerical answer (e.g., right multiple choice option or rank order) but provide a wrong or suboptimal explanation.

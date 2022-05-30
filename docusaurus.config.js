@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'EASEx',
-  tagline: 'Embodied Agents for Scaffolded Education (EASEx)',
+  tagline: 'Embodied Agents to Scaffold Education (EASEx)',
   url: 'https://EASEx.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

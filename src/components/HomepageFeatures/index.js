@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        EASEx was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        EASEx was designed from the ground up to be easily installed and used to get your jupyter notebook problem-solving session up and running quickly.
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        EASEx lets you focus on your work, and we&apos;ll do the chores. Go
-        ahead and try creating the test.
+        EASEx lets you focus on designing data-rich problems, and we will handle the in-situ social scaffolding for students. Go ahead and try creating a problem-solving session. 
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        EASEx extends from state of the art algorithms, components and renderers that
-        work together seamlessly.
+        EASEx extends from state of the art algorithms, components and renderers that work together seamlessly to provide automated and personalized scaffolding.
       </>
     ),
   },
