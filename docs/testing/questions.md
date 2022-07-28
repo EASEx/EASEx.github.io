@@ -18,7 +18,7 @@ You can add multiple notebook URLs (via google colab) that can be used to connec
 
 ### Answers
 
-_Previously discussed in creating questions here_
+_Previously discussed in creating questions [here](./create)_
 
 ### Actions
 
