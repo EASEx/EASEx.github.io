@@ -5,7 +5,7 @@ sidebar_position: 3
 # Scaffold Types
 
 - Cognitive — strategies for presenting new scaffolds as ideas
-  - _It seems you have already been struggling with integrating function X in your code. Why don't you try working with function Y?_
+  - _It seems you have been struggling with integrating function X in your code. Why don't you try working with function Y?_
   - _We need to raise the bar for you now. Consider the effect of using strategy Z in your work._
   - _Consider running your solution on a different dataset D? How does it perform?_
 - Metacognitive — strategies for self-explaining, time management and planning, engaging in reflection etc
