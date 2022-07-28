@@ -18,7 +18,7 @@ You can add multiple notebook URLs (via google colab) that can be used to connec
 
 ### Answers
 
-_Previously discussed in creating questions [here](./create)_
+_Previously discussed in creating questions [here](../testing/create)_
 
 ### Actions
 
@@ -31,7 +31,7 @@ python/
 dialogue
 ```
 
-`main.csv` de3scribes the structure of each action like this:
+`main.csv` describes the structure of each action like this:
 
 | dialogue              | code              | data              | type         |
 | --------------------- | ----------------- | ----------------- | ------------ |
@@ -44,12 +44,12 @@ Dialogue is literally the dialogue spoken by the embodied agent. It can either b
 
 #### Code (Optional)
 
-It refers to any arbitrary code that should be run inside the student's notebook when the action is triggered. It must be a path to a python file.
+It refers to any arbitrary code that should be run inside the students' notebook when the action is triggered. It must be a path to a python file.
 Note that you will need to import everything you are going to use in the file itself and not rely on modules already imported in the notebook. This is because the code is executed in a isolated context and has no access to notebook's python runtime.
 
 #### Data (Optional)
 
-Data is some textual information that can be presented to the student in the application ( say pandas documentation ). It must be a file path to a markdown or HTML file.
+Data is some textual information that can be presented to the student in the application (e.g., pandas documentation). It must be a file path to a markdown or HTML file.
 
 #### Type
 
