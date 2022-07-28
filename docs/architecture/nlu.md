@@ -34,11 +34,10 @@ plot()
 ]
 ```
 
-Also, the parses is capable of resolving renames of functions or modules (see above where we have renamed `matplotlib.pyplot` to `plt` by using `as` while importing) which may incidentally occur and also ignores any EASEx propritary code.
+The parser is capable of resolving renames of functions or modules which may incidentally occur (e.g., see above where we have renamed `matplotlib.pyplot` to `plt` by using `as` while importing) and also ignores any EASEx proprietary code.
 
 :::danger
-The parser only resolves upto a syntactically correct code. All cells after an incorrect syntax would be automatically ignored. As such it becomes important that you should ask
-students to not leave any incorrect cells in between.
+The parser only resolves upto a syntactically correct code statement. All cells after an incorrect syntax would be automatically ignored. As such it becomes important that students are instructed not to leave any incorrect cells when writing programming code.
 :::
 
 ## Answer Checking
