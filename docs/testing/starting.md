@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Starting Tests Manually
+# Starting Sessions Manually
 
 Although we have thoroughly tested EASEx in multiple scenarios, there may be some cases where a problem-solving session may not start at the given time. This can occur due to circumstances beyond our control, for example:
 
