@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Introduction
 
-The system is composed of several component which are discussed in detail below. We split the discussion into backend and frontend architecture.
+EASEx comprises several components which are discussed in detail below. We split the discussion into the backend and frontend architecture.
 
 ## Backend
 
-The backend is composed of the primnary proxy server that houses the following components
+The backend contains the primary proxy server that houses the following components
 
 - [NLU](nlu)
 - [3D Renderer (R3D)](r3d)
