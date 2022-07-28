@@ -34,7 +34,7 @@ plot()
 ]
 ```
 
-The parser is capable of resolving renames of functions or modules which may incidentally occur (e.g., see above where we have renamed `matplotlib.pyplot` to `plt` by using `as` while importing) and also ignores any EASEx proprietary code.
+The parser is capable of resolving renames of functions or modules which may incidentally occur (e.g., see above where a student may have renamed `matplotlib.pyplot` to `plt` by using `as` while importing) and also ignores any EASEx proprietary code.
 
 :::danger
 The parser only resolves upto a syntactically correct code statement. All cells after an incorrect syntax would be automatically ignored. As such it becomes important that students are instructed not to leave any incorrect cells when writing programming code.
